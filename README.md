@@ -3,7 +3,7 @@
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-v1.28-blue?logo=kubernetes&logoColor=white)
 ![Minikube](https://img.shields.io/badge/Minikube-v1.36.0-orange?logo=google-cloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-20.10-blue?logo=docker&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
+
 
 ---
 
@@ -91,7 +91,7 @@ minikube status
 kubectl get nodes
 ```
 
-![Screenshot #1 – Minikube start output](https://github.com/Sohel9146/Task-5-Kubernetes-Deployment-with-Minikube/blob/main/screenshots/Minikube%20Start.png?raw=true) 
+📸![Screenshot #1 – Minikube start output](https://github.com/Sohel9146/Task-5-Kubernetes-Deployment-with-Minikube/blob/main/screenshots/Minikube%20Start.png?raw=true) 
 📸![Screenshot #2 – Kubectl get nodes](https://github.com/Sohel9146/Task-5-Kubernetes-Deployment-with-Minikube/blob/main/screenshots/5%20-%20Get%20Nodes.png?raw=true)
 
 ---
@@ -149,8 +149,8 @@ kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
 ```
 
-![Screenshot #3 – kubectl get pods -o wide](https://github.com/Sohel9146/Task-5-Kubernetes-Deployment-with-Minikube/blob/main/screenshots/6%20-%20Get%20Pods%20-o%20Wide.png?raw=true)  
-![Screenshot #4 – kubectl get svc](https://github.com/Sohel9146/Task-5-Kubernetes-Deployment-with-Minikube/blob/main/screenshots/4%20-%20Get%20Service.png?raw=true)
+📸![Screenshot #3 – kubectl get pods -o wide](https://github.com/Sohel9146/Task-5-Kubernetes-Deployment-with-Minikube/blob/main/screenshots/6%20-%20Get%20Pods%20-o%20Wide.png?raw=true)  
+📸![Screenshot #4 – kubectl get svc](https://github.com/Sohel9146/Task-5-Kubernetes-Deployment-with-Minikube/blob/main/screenshots/4%20-%20Get%20Service.png?raw=true)
 
 ---
 
@@ -163,7 +163,7 @@ OR
 kubectl port-forward --address 0.0.0.0 svc/nginx-service 8080:80
 ```
 
-![Screenshot #5 – Browser view of the App](https://github.com/Sohel9146/Task-5-Kubernetes-Deployment-with-Minikube/blob/main/screenshots/App%20Running%20On%20Browser.png?raw=true)
+📸![Screenshot #5 – Browser view of the App](https://github.com/Sohel9146/Task-5-Kubernetes-Deployment-with-Minikube/blob/main/screenshots/App%20Running%20On%20Browser.png?raw=true)
 
 ---
 
@@ -173,7 +173,7 @@ kubectl scale deployment/nginx-deployment --replicas=4
 kubectl get pods
 ```
 
-![Screenshot #6 – kubectl get pods After Scaling](https://github.com/Sohel9146/Task-5-Kubernetes-Deployment-with-Minikube/blob/main/screenshots/8%20-%20Scale%20Apps.png?raw=true)
+📸![Screenshot #6 – kubectl get pods After Scaling](https://github.com/Sohel9146/Task-5-Kubernetes-Deployment-with-Minikube/blob/main/screenshots/8%20-%20Scale%20Apps.png?raw=true)
 
 ---
 
@@ -187,8 +187,8 @@ kubectl rollout history deployment/nginx-deployment
 kubectl rollout undo deployment/nginx-deployment
 ```
 
-![Screenshot #7 – Rolling update out](https://github.com/Sohel9146/Task-5-Kubernetes-Deployment-with-Minikube/blob/main/screenshots/9%20-%20Rollout%20Status%20and%20Rollout%20History.png?raw=true)  
-![Screenshot #8 – Rollback output](https://github.com/Sohel9146/Task-5-Kubernetes-Deployment-with-Minikube/blob/main/screenshots/Rollback.png?raw=true)
+📸![Screenshot #7 – Rolling update out](https://github.com/Sohel9146/Task-5-Kubernetes-Deployment-with-Minikube/blob/main/screenshots/9%20-%20Rollout%20Status%20and%20Rollout%20History.png?raw=true)  
+📸![Screenshot #8 – Rollback output](https://github.com/Sohel9146/Task-5-Kubernetes-Deployment-with-Minikube/blob/main/screenshots/Rollback.png?raw=true)
 
 ---
 
@@ -210,7 +210,7 @@ sudo firewall-cmd --reload
 http://<server-public-ip>:30007
 ```
 
-![Screenshot #9 – External Browser Access](https://github.com/Sohel9146/Task-5-Kubernetes-Deployment-with-Minikube/blob/main/screenshots/App%20Running%20On%20Browser.png?raw=true)
+📸![Screenshot #9 – External Browser Access](https://github.com/Sohel9146/Task-5-Kubernetes-Deployment-with-Minikube/blob/main/screenshots/App%20Running%20On%20Browser.png?raw=true)
 
 ---
 
