@@ -52,6 +52,7 @@ This project demonstrates deploying an **Nginx application** on Kubernetes using
 9. [Access Application from Outside](#-access-application-from-outside)
 10. [Cleanup](#-cleanup)
 11. [Screenshots](#-screenshots)
+12. [Author](#-Author)
 
 ---
 
